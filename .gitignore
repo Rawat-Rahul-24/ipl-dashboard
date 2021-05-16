@@ -34,3 +34,23 @@ build/
 
 ### React App ###
 src/frontend/node_modules/
+node_modules/react-minimal-pie-chart/CHANGELOG.md
+node_modules/react-minimal-pie-chart/LICENSE.md
+node_modules/react-minimal-pie-chart/package.json
+node_modules/react-minimal-pie-chart/README.md
+node_modules/react-minimal-pie-chart/dist/index.js
+node_modules/react-minimal-pie-chart/dist/index.js.map
+node_modules/react-minimal-pie-chart/es/index.js
+node_modules/react-minimal-pie-chart/es/index.js.map
+node_modules/react-minimal-pie-chart/lib/index.js
+node_modules/react-minimal-pie-chart/lib/index.js.map
+node_modules/react-minimal-pie-chart/types/commonTypes.d.ts
+node_modules/react-minimal-pie-chart/types/index.d.ts
+node_modules/react-minimal-pie-chart/types/Label.d.ts
+node_modules/react-minimal-pie-chart/types/Path.d.ts
+node_modules/react-minimal-pie-chart/types/utils.d.ts
+node_modules/react-minimal-pie-chart/types/Chart/Chart.d.ts
+node_modules/react-minimal-pie-chart/types/Chart/extendData.d.ts
+node_modules/react-minimal-pie-chart/types/Chart/index.d.ts
+node_modules/react-minimal-pie-chart/types/Chart/renderLabels.d.ts
+node_modules/react-minimal-pie-chart/types/Chart/renderSegments.d.ts
