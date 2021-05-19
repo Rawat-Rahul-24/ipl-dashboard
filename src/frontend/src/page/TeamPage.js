@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import { MatchDetailCard } from '../components/MatchDetailCard';
 import { MatchSmallCard } from '../components/MatchSmallCard';
 import {PieChart} from 'react-minimal-pie-chart'
+import { Link } from 'react-router-dom'
 
 import './TeamPage.scss';
 
@@ -35,7 +36,7 @@ export const TeamPage = () => {
         </div>
         <div className="win-loss-section">
             Wins /Losses
-            <PieChart
+            <PieChart animate
                 data={[
                     { title: 'Wins', value: team.totalWins, color: '#59B65A' },
                     { title: 'Losses', value: team.totalMatches - team.totalWins, color: '#B63131' }
@@ -50,7 +51,8 @@ export const TeamPage = () => {
         {team.matches.slice(1).map(match => <MatchSmallCard match={match} teamName = {team.teamName}/>)}
         
         <div className="more-link">
-            <a href="#">More -></a>
+        <Link to={`/team/${teamName}/matches/${process.env.REACT_APP_DATA_END_YEAR}`}>More -></Link> 
+           
         </div>
         </div>
     );
